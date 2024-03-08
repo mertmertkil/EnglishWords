@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    background-color: bisque;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.wordScreen {
+    margin-bottom: 20px; /* Butonlar ile wordScreen arasına boşluk eklemek için */
+    display: flex;
+    border:10px double blue;
+    padding:100px;
+    background-color: yellow;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2em;
+    color: darkorange;
+    background-color: snow;
+    border-radius: 60%;    
+}
+
+.wordEn,
+.wordTr{
+    border:1px solid red;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Exo 2', sans-serif;
+    background-color: snow;
+    font-size: 2em;
+}
+
